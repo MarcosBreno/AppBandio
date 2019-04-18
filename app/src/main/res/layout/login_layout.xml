@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/FundoPrincipal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/setatopsuperiorvoltar"
+                android:background="@color/FundoPrincipal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="20dp"
+                android:text="Login"
+                android:textSize="20dp"
+                android:textColor="@color/corfonte"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:gravity="center"
+                android:text="bandio"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                android:textColor="@color/corfonte"
+                android:fontFamily="monospace"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/usuario"
+                android:paddingTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:textSize="15dp"
+                android:textColorHint="@color/corfonte"
+                android:drawablePadding="10dp"
+                android:layout_marginLeft="15dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/senha"
+                android:paddingTop="10dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textSize="15dp"
+                android:drawablePadding="10dp"
+                android:layout_marginLeft="15dp"
+                android:drawableRight="@drawable/password"
+                android:textColorHint="@color/corfonte"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/FundoPrincipal"
+            >
+
+            <ImageButton
+
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/botao"
+                android:src="@drawable/botaosair"
+
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:text="Don't have an account? Sign Up"
+                android:textColor="@color/corfonte">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
